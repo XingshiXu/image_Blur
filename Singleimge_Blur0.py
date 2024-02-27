@@ -14,7 +14,7 @@ def reduce_resolution(image, factor):
     resized_image = cv2.resize(image, (new_width, new_height), interpolation=cv2.INTER_AREA)
     return resized_image
 
-def motion_blur(image, degree=12, angle=45):
+def motion_blur(image, degree=YOUSEAT, angle=YOUSEAT):
     image = np.array(image)
 
     # 这里生成任意角度的运动模糊kernel的矩阵， degree越大，模糊程度越高
