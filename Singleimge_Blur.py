@@ -31,9 +31,9 @@ def motion_blur(image, degree=12, angle=45):
     return blurred
 
 
-img = cv2.imread(r'H:\LRFRcode\acrface-bubb\arcface-pytorch-main\CowImages_Crop\N039\N039_0007__.jpg')
+img = cv2.imread(r'Your\img\Path\XX__.jpg')
 
-idex = 1
+idex = 1Pt
 Image_perturbation_Gaussian_idex = 1.10*idex
 Image_perturbation_Motion_idex = 5*idex
 Image_perturbation_reduceresolution_idex = 2.5*idex
